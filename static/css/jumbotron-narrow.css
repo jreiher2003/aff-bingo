@@ -1,6 +1,6 @@
 /* Space out content a bit */
 body {
-  
+  font-family: 'Slabo 27px', serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -50,7 +50,14 @@ body {
   padding: 14px 24px;
   font-size: 21px;
 }
-
+/* Makes logo bigger */
+.text-logo {
+  font-size: 60px;
+  text-align: left;
+}
+.jumbotron h1 {
+  font-size: 51px;
+}
 
 /* Supporting marketing content */
 .marketing {
