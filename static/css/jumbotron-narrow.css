@@ -46,10 +46,14 @@ body {
   background-color: rgb(237,220,255);
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  margin-top: 10px;
 }
 .jumbotron .btn {
+  background-color: yellow;
+  border-color: red;
   padding: 14px 24px;
   font-size: 21px;
+  margin-top: 10px;
 }
 /* Makes logo bigger */
 .text-logo {
@@ -67,16 +71,16 @@ body {
 .marketing p + h4 {
   margin-top: 28px;
 }
-.small-img {
+/*.small-img {
   float: left;
-}
-.move-button {
+}*/
+./*move-button {
 
   position: absolute;
   bottom: 130px;
   left: 570px;
 
-}
+}*/
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -96,13 +100,4 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
-}
-/* Makes logo bigger */
-.text-logo {
- 
-  
- 
-}
-.main-msg {
-  
 }
